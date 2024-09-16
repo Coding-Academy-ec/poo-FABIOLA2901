@@ -15,16 +15,17 @@ print(f"Al area del Rectangulo es: {  rectangulo1.area()}")
   
 
 class Circulo:
-    #pi = 3.141592653589793
+    #pii = 3.141592653589793
 
     def __init__(self, radio):
         #pass # inicialización de la variable radio
         self.radio = radio
 
-    def areacirculo(self):
+    def area(self):
          # implementación de la función con la forula de área de un círculo
-         return math.pi * (self.radio ** 2)
+         pii = 3.141592653589793
+         return pii * (self.radio ** 2)
     
-radio = float(input("Ingrese el radio de la circulo: "))
+radio = float(input("Ingrese el radio del circulo: "))
 Circulo1=Circulo(radio)
-print(f"Al area de la circulo es: {  Circulo1.areacirculo()}.2f")
+print(f"Al area de la circulo es: {  Circulo1.area()}.2f")
